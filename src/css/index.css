@@ -1,0 +1,78 @@
+.desc{
+  color: rgb(128, 128, 128);
+  margin: 10px 0;
+
+}
+.banner_list{
+  margin: 20px 0;
+  overflow: hidden;
+
+}
+.banner_list>li{
+  line-height: 40px;
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+}
+
+.banner_item{
+  padding: 20px 0;
+}
+.banner_list>li i{
+  font-size: 20px;
+
+}
+.banner_r .btn{
+  background-color: rgb(30, 160, 250);
+}
+.blue_bg{
+  background-color: rgb(245, 248, 250);
+}
+.banner_r .orange_btn{
+  background-color: rgb(255, 148, 26);
+  border-color: rgb(255, 148, 26);
+}
+.banner_img{
+  height: 350px;
+}
+.banner_img img{
+  height: 100%;
+}
+.template_item_box{
+  padding: 20px 100px;
+  /* background-color: rgb(246, 248, 249); */
+  overflow: hidden;
+}
+
+
+.template_item>div{
+  background-color: white;
+  padding: 30px;
+  /* height: 300px; */
+  box-shadow: 0px 0px 30px #E6E9ED;
+  border: 1px solid #EEEEEE;
+}
+.q_template{
+  margin: 100px auto;
+}
+.template_item dt{
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.template_item .more{
+ height: 20px;
+}
+.template_item .more a{
+  /* float: right; */
+  margin-right: 10px;
+  color: #1EA0FA;
+}
+.container-fluid{
+  padding: 0;
+}
+.banner{
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+  margin-bottom: 50px;
+}
