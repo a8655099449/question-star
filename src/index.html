@@ -12,26 +12,81 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-  <div class="container-fluid">
-    <div class="banner">
-      <!-- <img src="./img/banner.jpg" alt=""> -->
-    </div>
-    <div class="banner_item">
-      <div class="row public_width">
-        <div class="col-lg-6 banner_img">
+  <div class="container">
+
+    
+
+  </div>
+  <div class="banner_item">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 banner_img">
           <img src="./img/survey.png" alt="">
         </div>
-        <div class="col-lg-6 banner_r">
+        <div class="col-md-6 banner_r">
           <h2>问卷调查，从“星”开始</h2>
           <p class="banner_desc">深度集成微信群发、红包抽奖、问卷密码等强大功能，帮您轻松完成市场调查、社会调查、满意度调查等各类在线问卷调查。</p>
           <ul class="banner_list">
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>轻松导入问卷</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>多渠道分发问卷</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>深度适配移动端</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>原始数据下载</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>自动生成图表</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>付费收集答卷</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>轻松导入问卷</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>多渠道分发问卷</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>深度适配移动端</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>原始数据下载</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>自动生成图表</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>付费收集答卷</li>
           </ul>
           <button type="button" class="btn btn-info">问卷调查接受</button>
         </div>
@@ -39,99 +94,144 @@
       </div>
     </div>
 
-    <div class="banner_item blue_bg">
-      <div class="row public_width" >
-        <div class="col-lg-6 banner_r ">
+  </div>
+
+  <div class="banner_item blue_bg">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 banner_img col-md-push-6">
+          <img src="./img/survey2.png" alt="">
+        </div>
+
+        <div class="col-md-6 banner_r  col-md-pull-6">
           <h2>十分钟搭建您的在线考试系统</h2>
           <p class="banner_desc">深度结合微信考试场景，在教学考试、培训考试、业务考试等领域，问卷星在线考试系统对您大有助益。</p>
           <ul class="banner_list">
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>批量录入试题</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>考试时间控制</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>自定义成绩单</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>题库随机抽题</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>系统自动阅卷</li>
-            <li class="col-lg-6"><i class="iconfont icon-dui"></i>成绩查询系统</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>批量录入试题</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>考试时间控制</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>自定义成绩单</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>题库随机抽题</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>系统自动阅卷</li>
+            <li class="col-xs-6"><i class="iconfont icon-dui"></i>成绩查询系统</li>
           </ul>
           <button type="button" class="btn btn-info orange_btn">问卷调查接受</button>
         </div>
 
-        <div class="col-lg-6 banner_img">
-          <img src="./img/survey2.png" alt="">
-        </div>
-
-      </div>
-    </div>
-
-    <div class="q_template public_width">
-      <h2 class="text-center gray_color">问卷模板</h2>
-      <p class="text-center gray_color">更多的问卷模版，满足更多的业务场景</p>
-      <div class="template_item_box row" >
-        <div class="template_item col-lg-3">
-          <div >
-            <dl>
-              <dt>市场调查</dt>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-            </dl>
-            <p class="more">
-              <a href="javascript:;" class="">更多>></a>
-            </p>
-          </div>
-        </div>
-        <div class="template_item col-lg-3">
-          <div >
-            <dl>
-              <dt>市场调查</dt>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-            </dl>
-            <p class="more">
-              <a href="javascript:;" class="">更多>></a>
-            </p>
-          </div>
-        </div>
-        <div class="template_item col-lg-3">
-          <div >
-            <dl>
-              <dt>市场调查</dt>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-            </dl>
-            <p class="more">
-              <a href="javascript:;" class="">更多>></a>
-            </p>
-          </div>
-        </div>
-        <div class="template_item col-lg-3">
-          <div >
-            <dl>
-              <dt>市场调查</dt>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-              <dd><p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p></dd>
-            </dl>
-            <p class="more">
-              <a href="javascript:;" class="">更多>></a>
-            </p>
-          </div>
-        </div>
-
-
+     
       </div>
     </div>
 
   </div>
+
+  <div class="q_template container">
+    <h2 class="text-center gray_color">问卷模板</h2>
+    <p class="text-center gray_color">更多的问卷模版，满足更多的业务场景</p>
+    <div class="template_item_box row">
+      <div class="template_item col-lg-3  col-md-6">
+        <div>
+          <dl>
+            <dt>市场调查</dt>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+          </dl>
+          <p class="more">
+            <a href="javascript:;" class="">更多>></a>
+          </p>
+        </div>
+      </div>
+      <div class="template_item col-lg-3  col-md-6">
+        <div>
+          <dl>
+            <dt>市场调查</dt>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+          </dl>
+          <p class="more">
+            <a href="javascript:;" class="">更多>></a>
+          </p>
+        </div>
+      </div>
+      <div class="template_item col-lg-3  col-md-6">
+        <div>
+          <dl>
+            <dt>市场调查</dt>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+          </dl>
+          <p class="more">
+            <a href="javascript:;" class="">更多>></a>
+          </p>
+        </div>
+      </div>
+      <div class="template_item col-lg-3  col-md-6">
+        <div>
+          <dl>
+            <dt>市场调查</dt>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+            <dd>
+              <p class="text_row_1"><a href="javascript:;">市场调查问卷-童书市场调查</a></p>
+            </dd>
+          </dl>
+          <p class="more">
+            <a href="javascript:;" class="">更多>></a>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
 
   <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
   <script src="./bootstrap/js/bootstrap.js"></script>
